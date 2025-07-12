@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="my-cbt"
               description="Website ujian online yang di bangun dengan Mongodb,Express,React.js dan Node.js. website ini di lengkapi dengan fitur realtime chat menggunakan socket.io dan juga di lengkapi dengan generate AI untuk membantu guru membuat soal"
-              ghLink="https://my-cbt.netlify.app/"
-              demoLink="https://github.com/Suhailfadhluramadhan/fe-mern"
+              ghLink="https://github.com/Suhailfadhluramadhan/fe-mern"
+              demoLink="https://my-cbt.netlify.app"
             />
           </Col>
 
