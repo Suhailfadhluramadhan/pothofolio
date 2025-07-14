@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import clone from "../../Assets/Projects/Spoty.png";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import clone from "../../Assets/Projects/Spoty.png";
 import chatify from "../../Assets/Projects/Smp.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/suicide.png";
 import infofilm from "../../Assets/Projects/Infofilm.png";
 
 function Projects() {
@@ -43,7 +43,28 @@ function Projects() {
             />
           </Col>
 
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clone}
+              isBlog={false}
+              title="Spotyfy clone"
+              description="spotyfy clone adalah sebuah website yang di bangun dengan astro.js untuk membuat tampilan yang semirip mungkin dengan spotyfy. dengan menerapkan resonsive design"
+              ghLink="https://github.com/Suhailfadhluramadhan/spotify_project"
+              demoLink="https://spotifyproject-ten.vercel.app/"
+            />
+          </Col>
+
+         
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Face Recognition and Emotion Detection"
+              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            />
+       
         </Row>
       </Container>
     </Container>
