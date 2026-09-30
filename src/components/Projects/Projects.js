@@ -8,6 +8,7 @@ import clone from "../../Assets/Projects/Spoty.png";
 import chatify from "../../Assets/Projects/Smp.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import infofilm from "../../Assets/Projects/Infofilm.png";
+import sikumbang from "../../Assets/Projects/sikumbang.png";
 
 function Projects() {
   return (
@@ -40,6 +41,17 @@ function Projects() {
               description="sebuah website yang berisi tentang informasi film yang di bangun dengan react.js dan menggunakan API dari OMDB. website ini juga di lengkapi dengan fitur pencarian film dan juga detail film"
               ghLink="https://github.com/Suhailfadhluramadhan/infoFilm"
               demoLink="https://infofilm.vercel.app"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sikumbang}
+              isBlog={false}
+              title="sikumbang
+              description="Si-Kumbang adalah singkatan dari sistem tumbuh kembang website ini digunakan oleh para ibu untuk memantau perkembangan anak nya mulai dari gizi, tinggi badan, berat badan, keaktifan, serta di lengkapi dengan peringatan awal gejala ADHD"
+              ghLink="https://github.com/Suhailfadhluramadhan/Si_kumbang"
+              demoLink="https://si-kumbang.web.app/"
             />
           </Col>
 
