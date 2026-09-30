@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={sikumbang}
               isBlog={false}
-              title="sikumbang
+              title="sikumbang"
               description=`Si-Kumbang adalah singkatan dari sistem tumbuh kembang website ini digunakan oleh para ibu untuk memantau perkembangan anak nya mulai dari gizi, tinggi badan, berat badan, keaktifan, serta di lengkapi dengan peringatan awal gejala ADHD`
               ghLink="https://github.com/Suhailfadhluramadhan/Si_kumbang"
               demoLink="https://si-kumbang.web.app/"
